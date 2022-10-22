@@ -14,16 +14,15 @@
     <form id="form">
       <p id="message" style="font-size: 40px;">Login</p>
       <br>
+      <div id="waku">
       <p id="message">高校紹介・インタビュー動画</p>
       <p id="message">プラットフォーム</p>
       <h6 id="message" style="color: white;">@tkb.ed.jp</h6>
+      </div>
       <p id="message">Please enter your password</p>
-      <br>
       <input type="password" placeholder="password" id="password">
       <br>
-      <br>
-      <br>
-      <h6 id="message" style="color: white;">Admin：髙𣘺直生(s130951@tkb.ed.jp)</h6>
+      <h6 id="message" style="color: white;">Admin：髙𣘺直生(</h6><h6 id="message" style="color: white; text-decoration: underline;"><a href="mailto:s130951@tkb.ed.jp">s130951@tkb.ed.jp</a></h6><h6 id="message" style="color: white;">)</h6>
     </form>
     <br>
     <br>
@@ -45,7 +44,7 @@
           } else {
             const message = document.getElementById('message');
             const input = document.getElementById('password');
-            message.innerHTML = 'Wrong password! Try again.';
+            message.innerHTML = 'パスワードが間違っています';
             input.value = '';
           }
         };
