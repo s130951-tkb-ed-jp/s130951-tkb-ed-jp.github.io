@@ -40,6 +40,7 @@ input {
   -webkit-text-fill-color: rgb(200, 210, 240);
   background-color: rgb(10, 20, 40);
   font-size: 32px;
+  max-width: 400px;
 }
 input::placeholder {
   font-family: "Orbitron", sans-serif;
@@ -49,8 +50,8 @@ input::placeholder {
 form {
   text-align: center;
   margin: calc(35vh - 100px) auto 0;
-  max-width: 400px;
-  width: 90vw;
+  max-width: 80%;
+  width: 80%;
 }
 p {
   word-wrap: break-word;
