@@ -1,6 +1,0 @@
-<IfModule mod_rewrite.c>
-RewriteEngine On
-RewriteCond %{HTTP_USER_AGENT} (iPhone|Android.*Mobile|Windows.*Phone) [NC]
-RewriteCond %{QUERY_STRING} !mode=pc
-RewriteRule ^$ https://s130951-tkb-ed-jp.github.io/sp/7f68b88ce58534ddf21df64843a03068b11ca11fe0d6d57d44fc4c1de534644b [R,L]
-</IfModule>
