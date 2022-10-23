@@ -1,0 +1,58 @@
+html {
+    height: 2140px;
+    background-color: rgb(15, 30, 60);
+    background-image: linear-gradient(to top, rgb(10, 20, 40) 0%, rgb(20, 40, 80) 2140px);
+  }
+h1 {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 40px;
+  color: rgb(200, 210, 240);
+  -webkit-text-fill-color: rgb(200, 210, 240);
+}
+h2 {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 40px;
+  color: rgb(200, 210, 240);
+  -webkit-text-fill-color: rgb(200, 210, 240);
+}
+h3 {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 40px;
+  color: rgb(200, 210, 240);
+  -webkit-text-fill-color: rgb(200, 210, 240);
+}
+h4 {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 40px;
+  color: rgb(200, 210, 240);
+  -webkit-text-fill-color: rgb(200, 210, 240);
+}
+h5 {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 40px;
+  color: rgb(200, 210, 240);
+  -webkit-text-fill-color: rgb(200, 210, 240);
+}
+.koukou {
+  display: flex;
+}
