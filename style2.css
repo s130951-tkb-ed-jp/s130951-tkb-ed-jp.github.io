@@ -1,11 +1,12 @@
+/**---------------------------------------------------------------------------------------------*/
 @media(min-width:1121px){
   .sp{
     display: none !important;
   }
   html {
-      height: 2300px;
+      height: 2100px;
       background-color: rgb(15, 30, 60);
-      background-image: linear-gradient(to top, rgb(10, 20, 40) 0%, rgb(20, 40, 80) 2300px);
+      background-image: linear-gradient(to top, rgb(25, 51, 100) 0%, rgb(35, 68, 133) 2100px);
     }
   h1 {
     word-wrap: break-word;
@@ -61,14 +62,15 @@
     display: flex;
   }
 }
+/**---------------------------------------------------------------------------------------------*/
 @media(max-width:1120px){
   .pc{
     display: none !important;
   }
   html {
-      height: 2740px;
+      height: 2480px;
       background-color: rgb(15, 30, 60);
-      background-image: linear-gradient(to top, rgb(10, 20, 40) 0%, rgb(20, 40, 80) 2740px);
+      background-image: linear-gradient(to top, rgb(25, 51, 100) 0%, rgb(35, 68, 133) 2480px);
     }
   h1 {
     word-wrap: break-word;
