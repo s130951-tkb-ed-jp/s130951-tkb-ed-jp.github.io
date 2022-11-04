@@ -4,9 +4,9 @@
     display: none !important;
   }
   html {
-      height: 2100px;
+      height: 1990px;
       background-color: rgb(15, 30, 60);
-      background-image: linear-gradient(to top, rgb(25, 51, 100) 0%, rgb(35, 68, 133) 2100px);
+      background-image: linear-gradient(to top, rgb(25, 51, 100) 0%, rgb(35, 68, 133) 1990px);
     }
   h1 {
     word-wrap: break-word;
@@ -68,9 +68,9 @@
     display: none !important;
   }
   html {
-      height: 2480px;
+      height: 2360px;
       background-color: rgb(15, 30, 60);
-      background-image: linear-gradient(to top, rgb(25, 51, 100) 0%, rgb(35, 68, 133) 2480px);
+      background-image: linear-gradient(to top, rgb(25, 51, 100) 0%, rgb(35, 68, 133) 2360px);
     }
   h1 {
     word-wrap: break-word;
